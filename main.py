@@ -190,8 +190,7 @@ plt.title("HIQL Training Losses (Taxi Offline)")
 plt.legend()
 plt.grid()
 
-plt.show()
-
+plt.show(block=True)
 # ------------------------------------
 
 env = gym.make("Taxi-v3")
@@ -203,3 +202,4 @@ plt.figure(figsize=(10,6))
 
 plt.plot(ret, label="Returns")
 
+plt.show(block=True)
