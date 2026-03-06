@@ -362,7 +362,7 @@ def get_taxi_config():
         dict(
             # Agent hyperparameters
             agent_name='hiql_taxi',
-            lr=1e-3,
+            lr=3e-4,
             batch_size=128,  # smaller batch
             actor_hidden_dims=(64, 64),  # small MLP
             value_hidden_dims=(64, 64),  # small MLP
