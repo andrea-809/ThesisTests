@@ -4,8 +4,9 @@ import jax
 import numpy as np
 import jax.numpy as jnp
 import matplotlib.pyplot as plt
-from HIQL_actor import get_config, get_taxi_config#, HIQLAgent
-from FlatIQL_agent import FlatGCIQLAgent as HIQLAgent  # drop-in replacement
+#from HIQL_actor import get_config, get_taxi_config, HIQLAgent
+from FlatIQL_agent import FlatGCIQLAgent as HIQLAgent # drop-in replacement
+from FlatIQL_agent import get_taxi_config  # drop-in replacement
 
 DS_PATH = "datasets/taxi_mixed_dataset_trajectories.pkl"
 
