@@ -135,10 +135,16 @@ NUM_STATES = 500
 ex_obs = jnp.zeros((1, NUM_STATES))
 ex_actions = jnp.array([5])  # 6 actions in Taxi
 
+# agent = HIQLAgent.create(
+#     seed=0,
+#     ex_observations=ex_obs,
+#     ex_actions=ex_actions,
+#     config=get_taxi_config()
+# )
 agent = HIQLAgent.create(
     seed=0,
-    ex_observations=ex_obs,
-    ex_actions=ex_actions,
+    ex_observations=jnp.zeros((1, 500)),
+    ex_actions=jnp.array([5]),
     config=get_taxi_config()
 )
 
