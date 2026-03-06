@@ -1,6 +1,7 @@
 import gymnasium as gym
 import pickle
 import jax
+import numpy as np
 import jax.numpy as jnp
 import matplotlib.pyplot as plt
 from HIQL_actor import HIQLAgent, get_config, get_taxi_config
