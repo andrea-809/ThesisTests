@@ -1,0 +1,7 @@
+jax
+jaxlib
+flax
+ml-collections
+optax
+distrax
+gymnasium
